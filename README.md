@@ -1,1 +1,1 @@
-My personal and self-hosted resume, availible at https://resume.mylespetersen.com
+My personal and self-hosted resume, available at https://resume.mylespetersen.com
