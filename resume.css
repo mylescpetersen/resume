@@ -1,7 +1,7 @@
 body {
-    background: url(images/houston.jpg) no-repeat;
-    background-size: cover;
-
+    background-image: url("images/skyline.jpg");
+	background-position: center bottom;
+	background-repeat: none;
 
 }
 
@@ -9,7 +9,7 @@ body {
     margin: 5% 10% 5% 10%;
     border: 1px solid black;
     height: 200vh;
-    background-color: rgba(200, 200, 200, 0.8);
+    background-color: rgba(200, 200, 200, 0.85);
     position: relative;
     padding-left: 5px
 }
@@ -50,6 +50,7 @@ h2 .skills {
     float: right;
     width: 18%;
     padding: 0px 10px 0px 10px;
+	word-wrap: break-word;
 
 }
 
@@ -167,11 +168,11 @@ h2 .skills {
 }
 
 a:visited {
-    color: #398a38;
+    color: #305091;
 }
 
 a:link {
-    color: #398a38;
+    color: #305091;
 }
 
 .social h2 {
