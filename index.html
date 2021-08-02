@@ -4,6 +4,7 @@
     <title>Myles Petersen Resume</title>
     <link href="resume.css" type="text/css" rel="stylesheet">
     <link rel="icon" href="images/uvic.ico" type="image/x-icon">
+    
 
 </head>
 <body>
@@ -17,6 +18,11 @@
                 <li>HTML, CSS & JavaScript</li>
                 <li>Linux</li>
 				<li>Docker</li>
+                <li>PowerShell</li>
+                <li>Jira</li>
+                <li>Confluence</li>
+                <li>Wireshark</li>
+                <li>VMware</li>
             </ul>
             <ul>
                 <li>Fluency in French</li>
@@ -46,7 +52,7 @@
 					<li><u>Technologies used:</u> JavaScript, HTML, CSS</li>
 				</ul>
 				<br>
-				<a href="https://github.com/mylescpetersen/Python-File-Word-Counter-More">
+				<a href="https://github.com/mylescpetersen/Python-File-Word-Counter-More" target="_blank">
 					<li>Python Word Length Counter and Frequency Finder</li>
 				</a>
                 <ul class="technologies">
@@ -64,8 +70,10 @@
     <!-- remove top and bottom borders -->
     <div id="header">
             <span class="name">
-            <h1>Myles Petersen</h1>
+                <img src = "images/face.png" class="face">
+                <h1>Myles Petersen</h1>
                 <h4>Computer Science student at the University of Victoria</h4>
+                
                 </span>
         <div class="social">
             <h2>External Links</h2>
@@ -75,14 +83,44 @@
             <a href="https://github.com/mylescpetersen" target="_blank">
                 <img src="images/github.png" alt="GitHub" title="GitHub">
             </a>
-			<h4>mylescpetersen@gmail.com</h4>
+			<h4 class="email">mylescpetersen@gmail.com</h4>
         </div>
     </div>
     <div id="subcategories">
         <div id="experience">
             <h2>Experience</h2>
+
+            <div class="item">
+                <img src="/images/reliable.jpg" class="company_logo">
+                <p class="example">System QA Analyst - Co-op</p>
+                <p class="date"> (May 2021 - Dec 2021)</p>
+                <ul>
+                    <li>Wrote PowerShell scripts to automate the creation of VMware ESXi VMs/templates, 
+                        for creation of Linux environments to simplify testing the firmware of Reliable Controls' 
+                        upcoming product release. The scripts deploy Photon OS VMs, set a static IP address for the VM, 
+                        and automatically load/start the firmware of the upcoming product via SSH and a 'Systemd' service 
+                        in the VM. In addition, the scripts have the ability to automatically create a VM template based on a 
+                        given firmware version, either whenever a new firmware version is uploaded to the company LAN, 
+                        or to manually create a template/VM from a specified firmware version.
+                    </li>
+                    <br>
+                    <li>Spearheaded implementing an office-wide 802.1q tagged VLAN setup which connects the test walls of many 
+                        Reliable Controls products to a QA hypervisor, and to workstations. This implementation allows each group 
+                        of test devices to be segregated onto their own Virtual Network, which eliminates the possibility of network 
+                        interference from the other hundreds of devices. Additionally, it allows for the QA teams to easily connect 
+                        to any specific test wall from a VM or their workstation, without the need to be physically located nearby.
+                    </li>
+                    <br>
+                    <li>Performed extensive test runs to identify bugs and issues in upcoming Reliable Controls software and firmware releases, 
+                        and collaborated thoroughly with the various firmware and software team members to ensure high-quality, bug-free 
+                        software/firmware.
+
+                    </li>
+                </ul>
+            </div>
             <div class="item">
                 <!-- maybe stylize dates -->
+                <img src="/images/first.png" class="company_logo">
                 <p class="example">Volunteer Robotics Mentor</p>
                 <p class="date"> (Jan, 2020 - Present)</p>
                 <ul>
@@ -93,22 +131,23 @@
                     </li>
                 </ul>
             </div>
-            <div class="item">
-                <p class="example">Grocery Clerk: Thrifty Foods</p>
-                <p class="date"> (Jul, 2018 - Dec 2019)</p>
-                <ul>
-                    <li>Responsible for providing customer service, having extensive knowledge about the store, and
-                        moving supply.
-                    </li>
-                </ul>
-            </div>
 			<div class="item">
+                <img src="/images/first.png" class="company_logo">
                 <p class="example">FIRST Lego League: Project Design Judge</p>
                 <p class="date"> (Jan 2020)</p>
                 <ul>
                     <li>Along with two others, I judged 18 youth Lego robotics teams from  elementary and middle schools across B.C. on their 
 						research project for the 2019-20 season. In this project they had to collaborate as a team to identify a problem 
 						in their local community, then research and design a solution for that problem.
+                    </li>
+                </ul>
+            </div>
+            <div class="item">
+                <img src="/images/thriftys.png" class="company_logo">
+                <p class="example">Grocery Clerk: Thrifty Foods</p>
+                <p class="date"> (Jul, 2018 - Dec 2019)</p>
+                <ul>
+                    <li>Responsible for providing respectful and informative customer service, having extensive knowledge about the store, and moving/organizing supply.
                     </li>
                 </ul>
             </div>
@@ -165,6 +204,12 @@
             <div class="item">
                 <p class="example">Standard First Aid & CPR-C</p>
                 <p class="date"> (2017 - 2022)</p>
+                <ul>
+                </ul>
+            </div>
+            <div class="item">
+                <p class="example">Reliable Controls: Level 2 Technical Certification</p>
+                <p class="date"> (2021-2022)</p>
                 <ul>
                 </ul>
             </div>
