@@ -120,6 +120,10 @@ h2 .skills {
     opacity: 60%;
 }
 
+.item img:hover {
+    opacity: 60%;
+}
+
 
 #experience {
     float: left;
