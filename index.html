@@ -13,20 +13,23 @@
             <ul>
                 <!-- Technical skills -->
                 <li>Python</li>
-                <li>Java</li>
-                <li>HTML, CSS & JavaScript</li>
+                <li>Bash</li>
+				<li>Docker/Podman</li>
                 <li>Linux</li>
-				<li>Git</li>
-				<li>Docker</li>
+                <li>Jenkins</li>
+                <li>Ansible</li>
                 <li>PowerShell</li>
+                <li>AWS Amplify</li>
+                <li>Packer</li>
+                <li>Vagrant</li>
+                <li>Git</li>
+                <li>HTML, CSS & JavaScript</li>
                 <li>Jira</li>
                 <li>Confluence</li>
                 <li>Wireshark</li>
-                <li>VMware</li>
-            </ul>
-            <ul>
-                <!-- Misc. skills -->
+                <li>VMware & Hyper-V</li>
                 <li>Fluency in French</li>
+
             </ul>
         </div>
         <div class="projects">
@@ -40,29 +43,26 @@
                     <li><u>Technologies used:</u> PowerShell, Linux, VMware</li>
                 </ul>
                 <br>
-                 <!-- Virtualization Server -->
-                 <li>Home VMware ESXi/vSphere Virtualization Cluster</li>
+                 <!-- HomeLab -->
+                 <li>HomeLab</li>
                  <ul class="technologies">
                      <li><u>Used to host VMs for:</u>
                          <ul>
+                            <li>Gitea Git server</li>
                              <li>Active Directory / DNS</li>
-                             <li>SQL Server</li>
-                             <li>Windows File Server</li>
-                             <li>Veeam backup server</li>
-                             <li>Multiple Domain Controllers</li>
-                             <li>Linux VPN server</li>
-                             <li>Home automation server</li>
-                             <li>Hosting server</li>
+                             <li>NFS</li>
+                             <li>Domain Controller</li>
+                             <li>Wireguard VPN</li>
+                             <li>Home automation server (Home Assistant)</li>
                              <li>Wiki server</li>
-                             <li>Automated Media Server</li>
+                             <li>Media server</li>
+                             <li>Web-Hosting server</li>
+                             <li>TrueNAS backup server</li>
                          </ul>
                      </li>
                  </ul>
-                 <br>
-                 <!-- Home Server -->
-                <li>(Now-virtualized) Automated Home Media/Hosting Server</li>
                 <ul class="technologies">
-                    <li><u>Technologies used:</u> Ubuntu, Docker, Reverse Proxies</li>
+                    <li><u>Technologies:</u> Bash, Docker, Python, Ansible, Git, TCP/IP, DNS, YAML, Reverse Proxies</li>
                 </ul>
                 <br>
                 <!-- FRC Robot  -->
@@ -70,7 +70,7 @@
                     <li>2019 World-Championship-Qualifying FIRST Robotics Competition Robot</li>
                 </a>
                 <ul class="technologies">
-                    <li><u>Technologies used:</u> Java, LabVIEW, robot design, electrical wiring, and mechanical design.
+                    <li><u>Technologies:</u> Java, LabVIEW, robot design, electrical wiring, and mechanical design.
                     </li>
                 </ul>
                 <br>
@@ -79,7 +79,7 @@
 					<li>Python 'Battlesnake': A 'Snake' AI in the form of a web-server </li>
 				</a>
                 <ul class="technologies">
-                    <li><u>Technologies used:</u> Python, Object-Oriented Programming, Google App Engine</li>
+                    <li><u>Technologies:</u> Python, Object-Oriented Programming, Google App Engine</li>
                 </ul>
                 <br>
                 
@@ -88,15 +88,15 @@
 					<li>JavaScript NHL Player Comparison Tool</li>
 				</a>
 				<ul class="technologies">
-					<li><u>Technologies used:</u> JavaScript, HTML, CSS</li>
+					<li><u>Technologies:</u> JavaScript, HTML, CSS</li>
 				</ul>
 				<br>
                 <!-- Resume -->
-                <a href="https://resume.mylespetersen.com/" target="_blank" title="You're already here!">
-					<li>Self-Written, Self-Hosted HTML Resume</li>
+                <a href="https://github.com/mylescpetersen/resume" target="_blank" title="You're already here!">
+					<li>AWS-Hosted HTML & CSS Resume (Previously self-hosted)</li>
 				</a>
 				<ul class="technologies">
-					<li><u>Technologies used:</u> Docker, Reverse Proxies, HTML, CSS</li>
+					<li><u>Technologies:</u> AWS Amplify, Docker, Reverse Proxies, HTML, CSS</li>
 				</ul>
 				<br>
                 <!-- Python Word Counter -->
@@ -104,13 +104,13 @@
 					<li>Python Word Length Counter and Frequency Analyzer</li>
 				</a>
                 <ul class="technologies">
-                    <li><u>Technologies used:</u> Python</li>
+                    <li><u>Technologies:</u> Python</li>
                 </ul>
                 <br>
                 <!-- Sports HTML sites                                                                                                                                                                                             -->
                 <li>Multiple Sports Team Fan Websites</li>
                 <ul class="technologies">
-                    <li><u>Technologies used:</u> JavaScript, HTML, CSS</li>
+                    <li><u>Technologies:</u> JavaScript, HTML, CSS</li>
                 </ul>
             </ul>
         </div>
@@ -123,7 +123,6 @@
             </span>
         <div class="social">
             <h2>External Links</h2>
-
             <a href="https://www.linkedin.com/in/mylespetersen/" target="_blank">
                 <img src="images/linkedin.png" alt="LinkedIn" title=LinkedIn></a>
             <a href="https://github.com/mylescpetersen" target="_blank">
@@ -135,12 +134,35 @@
     <div id="subcategories">
         <div id="experience">
             <h2>Experience</h2>
-
             <div class="item">
-                <a href="https://www.reliablecontrols.com/" target="_blank" title="Reliable Controls">
-                    <img src="/images/reliable.jpg" class="company_logo">
-                </a>
-                <p class="example"><b>System QA Analyst - Co-op</b></p>
+                <img src="/images/reliable.jpg" class="company_logo">
+                
+                <!-- <p class="company_name">Reliable Controls: </p> -->
+                <h3 class="company_name">&nbsp;Reliable Controls</h3></a><br><br>
+
+                <!-- DevOps -->
+                <h3 class="example">&emsp;DevOps Engineer - Co-op</h3>
+                <p class="date"> (Sep 2022 - Dec 2022)</p>
+                <ul>
+                    <li>
+                        Built and provisioned Ubuntu images using Ansible, Packer, and Vagrant. Using the Ubuntu VMs to host test containers locally.
+                    </li>
+                    <br>
+                    <li>
+                        Wrote various Bash scripts to supplement other projects, and refactored Python build scripts.
+                    </li>
+                    <br>
+                    <li>
+                        Integrated building and pushing container images to a registry as part of Jenkins CI/CD.
+                    </li>
+                    <br>
+                    <li>
+                        Created containerized version of custom Linux firmware as a lightweight way to emulate physical devices.
+                    </li>
+                </ul>
+
+                <!-- System QA -->
+                <h3 class="example">&emsp;System QA Analyst - Co-op</h3>
                 <p class="date"> (May 2021 - Dec 2021)</p>
                 <ul>
                     <li>Wrote <a href= "https://github.com/mylescpetersen/PowerShell-Linux-VM-Deployment-Scripts" target="_blank" title="GitHub">
@@ -162,56 +184,66 @@
                     </li>
                 </ul>
             </div>
+
             <div class="item">
-                <a href="https://www.firstinspires.org/robotics/frc" target="_blank" title="FIRST Robotics">
-                    <img src="/images/first.png" class="company_logo">
-                </a>
-                <p class="example"><b>Volunteer Robotics Mentor</b></p>
-                <p class="date"> (Jan, 2020 - Present)</p>
+                <img src="/images/first.png" class="company_logo">
+                
+                <!-- <p class="company_name">Reliable Controls: </p> -->
+                <h3 class="company_name">&nbsp;FIRST Robotics</h3></a><br><br>
+
+                
+                <h3 class="example">&emsp;Robotics Mentor - Volunteer</h3>
+                <p class="date"> (Jan. 2020 - Present)</p>
                 <ul>
-                    <li>A co-founder of, and now a volunteer mentor/coach for the 'Reynolds ReyBots', a local high-school
+                    <li>
+                        A co-founder of, and now a volunteer mentor/coach for the 'Reynolds ReyBots', a local high-school
                         robotics team which competes in the FIRST (For Inspiration and Recognition of Science and Technology)
                         Robotics Competition and FIRST Tech Challenge.
                     </li>
+                    <li>
+                        Provides guidance in robot design, autonomous and user-controlled drive programming, and electrical wiring.
+                    </li>
                 </ul>
-            </div>
-			<div class="item">
-                <a href="https://www.firstlegoleague.org/" target="_blank" title="FIRST Lego League">
-                    <img src="/images/first.png" class="company_logo">
-                </a>
-                <p class="example"><b>FIRST Lego League: Project Design Judge</b></p>
-                <p class="date"> (Jan 2020)</p>
+
+                <h3 class="example">&emsp;Project Design Judge - Volunteer</h3>
+                <p class="date"> (Jan. 2020)</p>
                 <ul>
-                    <li>Along with two others, I judged 18 youth Lego robotics teams from  elementary and middle schools across British Columbia on their 
+                    <li>
+                        Along with two others, I judged 18 youth Lego robotics teams from  elementary and middle schools across British Columbia on their 
 						research project for the 2019-20 season. In this project they had to collaborate as a team to identify a problem 
 						in their local community, then research and design a solution for that problem.
                     </li>
                 </ul>
             </div>
+           
             <div class="item">
-                <a href="https://www.thriftyfoods.com/" target="_blank" title="Thrifty Foods">
-                    <img src="/images/thriftys.png" class="company_logo" >
-                </a>
-                <p class="example"><b>Grocery Clerk</b></p>
-                <p class="date"> (Jul, 2018 - Dec 2019)</p>
+                <img src="/images/thriftys.png" class="company_logo">
+                <h3 class="company_name">&nbsp;Thrifty Foods</h3></a><br><br>
+                <h3 class="example">&emsp;Grocery Clerk</h3>
+                <p class="date"> (Jul 2018 - Dec 2019)</p>
                 <ul>
-                    <li>Responsible for providing respectful and informative customer service, having extensive knowledge about the store, and moving/organizing supply.
+                    <li>
+                        Responsible for providing respectful and informative customer service, having extensive knowledge about the store, and moving/organizing supply.
+                    </li>
+                </ul>
+                <!-- <ul>
+                    <li>
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <div id="education">
             <h2>Education</h2>
             <div class="item">
-                <p class="example">University of Victoria - BS, Computer Science</p>
+                <p class="company_name">University of Victoria - BS, Computer Science</p>
                 <p class="date"> (2019 - 2023)</p>
                 <ul>
-                    <li>A second-year Computer Science student planning on pursuing a major in computer networking.
+                    <li>A third year Computer Science student planning on pursuing a major in computer networking.
                     </li>
                 </ul>
             </div>
             <div class="item">
-                <p class="example">Reynolds Secondary: French Immersion</p>
+                <p class="company_name">Reynolds Secondary: French Immersion</p>
                 <p class="date"> (2019)</p>
                 <ul>
                     <li> French Immersion schooling from grades 1-12, Graduated with a 3.92 GPA and 92% grade 12
@@ -223,7 +255,7 @@
 		<div id="awards">
             <h2>Awards</h2>
             <div class="item">
-                <p class="example"> SD61 District/Authority Scholarship Award</p>
+                <p class="company_name"> SD61 District/Authority Scholarship Award</p>
                 <ul>
                     <li>A $1250 award by the Greater Victoria School District for demonstrating excellence in the area
                         of Information Technology.
@@ -231,7 +263,7 @@
                 </ul>
             </div>
             <div class="item">
-                <p class="example">BC Achievement Award</p>
+                <p class="company_name">BC Achievement Award</p>
                 <ul>
                     <li>A $1250 award by the Province of B.C. for graduating as a top 8,000 student, based on GPA.
                     </li>
@@ -250,19 +282,13 @@
             </div>
             <div class="item">
                 <p class="example">Standard First Aid & CPR-C</p>
-                <p class="date"> (2017 - 2022)</p>
-                <ul>
-                </ul>
-            </div>
-            <div class="item">
-                <p class="example">Reliable Controls: Level 2 Technical Certification</p>
-                <p class="date"> (2021-2022)</p>
+                <p class="date"> (2017 - 2023)</p>
                 <ul>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<p style="color: white; float: right;">Background image taken in Houston, TX at 2019 Robotics World Championship</p>
+<!-- <p style="color: white; float: right;">Background image taken in Houston, TX at 2019 Robotics World Championship</p> -->
 </body>
 </html>

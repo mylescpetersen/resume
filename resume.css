@@ -9,7 +9,7 @@ body {
     margin: 5% 10% 5% 10%;
     border: 1px solid black;
     height: 200vh;
-    background-color: rgba(200, 200, 200, 0.85);
+    background-color: rgba(200, 200, 200, 0.925);
     position: relative;
     padding-left: 5px;
     display:  inline-table;
@@ -168,8 +168,250 @@ h2 .skills {
 
 .example {
     display: inline;
+    font-weight: bold;
+    
+}
+
+.company_name {
+    display: inline;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.company_link a:link a:visited {
+    color: red;
+    /* text-decoration: none; */
+}
+
+.company_link.a {
+    color: red
+}
+
+
+a:visited {
+    color: #305091;
+}
+
+a:link {
+    color: #305091;
+}
+
+.social h2 {
     text-decoration: underline;
 }
+
+.company_logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: -10px;
+}
+
+.face {
+    float: right;
+    border-radius: 85%;
+    pointer-events: none;
+    width:  20%;
+    margin: 1%;
+
+}
+
+
+/*@media phone size .email { */
+    /* word-wrap: break-word; */
+/* } */
+
+body {
+    background-image: url("images/skyline.jpg");
+	background-position: center bottom;
+	background-repeat: none;
+
+}
+
+.content {
+    margin: 5% 10% 5% 10%;
+    border: 1px solid black;
+    height: 200vh;
+    background-color: rgba(200, 200, 200, 0.925);
+    position: relative;
+    padding-left: 5px;
+    display:  inline-table;
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+h4 {
+    padding-left: 15px;
+}
+
+ul .skills {
+    list-style-type: none
+}
+
+h2 .skills {
+    text-align: center;
+}
+
+.skills {
+    border-bottom: 1px solid black;
+    text-overflow: ellipsis;
+
+}
+
+.projects {
+
+}
+
+.technologies {
+    padding-top: 5px;
+}
+
+#sidebar {
+    border-left: 1px solid black;
+    height: 100%;
+    float: right;
+    width: 18%;
+    padding: 0px 10px 0px 10px;
+	word-wrap: break-word;
+
+}
+
+
+#subcategories {
+    padding-left: 15px;
+
+}
+
+#experience {
+    width: 75%;
+}
+
+#education {
+    margin-top: 10px;
+    width: 75%;
+}
+
+
+#header {
+    width: 75%;
+}
+
+
+.name {
+    float: left;
+    border-bottom: 1px solid black;
+    width: 75%;
+    border-right: 1px solid black;
+
+}
+
+
+#criteria p {
+    padding-left: 20px;
+}
+
+#criteria h2 {
+    border-bottom: 1px solid black;
+    width: 25%;
+
+}
+
+.social {
+    float: right;
+    /*border:1px solid black;*/
+    width: 22%;
+    max-height: 30%;
+    /*border-right: 1px solid black;*/
+    text-align: center;
+
+}
+
+.social img {
+    height: 40px;
+    width: 40px;
+    /*padding-top: 37px;*/
+    /*display: block;*/
+    /*padding: 0px 5px 0px 5px;*/
+    /*position: center;*/
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#header img:hover {
+    opacity: 60%;
+}
+
+.item img:hover {
+    opacity: 60%;
+}
+
+
+#experience {
+    float: left;
+    clear: left;
+    width: 75%;
+
+
+}
+
+#education {
+    float: left;
+    clear: left;
+    width: 75%;
+}
+
+#certifications {
+    float: left;
+    clear: left;
+    width: 75%;
+}
+
+#awards{
+    float: left;
+    clear: left;
+    width: 75%;
+}
+
+.item {
+    padding-top: 15px;
+    border-bottom: 1px solid grey;
+    margin: 0px 10px 0px 10px;
+}
+
+.subcategories {
+    border-left: 1px solid black;
+}
+
+.date {
+    display: inline;
+
+}
+
+.example {
+    display: inline;
+    font-weight: bold;
+    
+}
+
+.company_name {
+    display: inline;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.company_link a:link a:visited {
+    color: red;
+    /* text-decoration: none; */
+}
+
+.company_link.a {
+    color: red
+}
+
 
 a:visited {
     color: #305091;
