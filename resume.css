@@ -441,8 +441,6 @@ a:link {
 
 }
 
-
-/*@media phone size .email { */
-    /* word-wrap: break-word; */
-/* } */
-
+a.img_link {
+    text-decoration: none;
+}
